@@ -1,10 +1,10 @@
 // App Layer
 .app {
-  @apply flex flex-col h-screen;
+  @apply flex h-screen flex-col;
 }
 
 .app-header {
-  @apply h-10;
+  @apply flex h-10;
 }
 
 .app-main {
@@ -12,5 +12,14 @@
 }
 
 .app-footer {
-  @apply h-10;
+  @apply flex h-10;
 }
+
+// Header Layer
+.header-logo {
+  @apply basis-1/2 md:basis-1/5;
+}
+.header-nav {
+  @apply hidden md:block md:basis-3/5;
+}
+// Footer Layer
