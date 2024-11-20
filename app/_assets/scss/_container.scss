@@ -1,0 +1,16 @@
+// App Layer
+.app {
+  @apply flex flex-col h-screen;
+}
+
+.app-header {
+  @apply h-10;
+}
+
+.app-main {
+  @apply mb-auto;
+}
+
+.app-footer {
+  @apply h-10;
+}
