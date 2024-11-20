@@ -4,12 +4,13 @@ import NavBar from "@/app/_components/header/nav-bar"
 export default function AppHeader() {
   return (
     <>
-      <div>
+      <div className="header-logo">
         <Logo />
       </div>
-      <div>
+      <div className="header-nav">
         <NavBar />
       </div>
+      <div></div>
     </>
   )
 }

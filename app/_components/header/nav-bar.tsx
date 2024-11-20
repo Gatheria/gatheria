@@ -1,11 +1,15 @@
 import Link from "next/link"
 
 export default function NavBar() {
+  const navItems = [{ name: "", link: "" }]
   return (
     <>
       <nav>
-        <Link href="/about">About</Link>
-        <Link href="/contact">Contact</Link>
+        {navItems.map((item, index) => (
+          <Link href={item.link} key={index}>
+            {item.name}
+          </Link>
+        ))}
       </nav>
     </>
   )

@@ -16,11 +16,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="app">
-        <header>
+        <header className="app-header">
           <AppHeader />
         </header>
-        <main>{children}</main>
-        <footer>
+        <main className="app-main">{children}</main>
+        <footer className="app-footer">
           <AppFooter />
         </footer>
       </body>
