@@ -5,7 +5,7 @@ export default function Copyright() {
     <>
       <span>
         Copyright &copy; {new Date().getFullYear()}・
-        <Link href="https://zhenyuan.dev/">Zhenyuan 工作室</Link>. All Rights{" "}
+        <Link href="https://zhenyuan.dev/">Zhenyuan Studio</Link>. All Rights{" "}
         Reserved.
       </span>
     </>
