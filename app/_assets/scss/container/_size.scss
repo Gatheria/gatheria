@@ -1,0 +1,27 @@
+// App Layer
+.app {
+  @apply h-screen;
+}
+
+.app-header {
+  @apply h-10;
+}
+
+.app-main {
+  @apply mb-auto;
+}
+
+.app-footer {
+  @apply h-10;
+}
+
+// Header Layer
+.header-logo {
+  @apply basis-1/2 md:basis-1/5;
+}
+
+.header-nav {
+  @apply md:basis-3/5;
+}
+
+// Footer Layer

@@ -1,0 +1,23 @@
+// App Layer
+.app {
+  @apply flex flex-col;
+}
+
+.app-header {
+  @apply flex;
+}
+
+.app-main {
+}
+
+.app-footer {
+  @apply flex;
+}
+
+// Header Layer
+.header-logo {
+}
+
+.header-nav {
+  @apply hidden md:block;
+}

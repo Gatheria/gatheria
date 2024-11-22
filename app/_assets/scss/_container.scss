@@ -1,25 +1,5 @@
-// App Layer
-.app {
-  @apply flex h-screen flex-col;
-}
-
-.app-header {
-  @apply flex h-10;
-}
-
-.app-main {
-  @apply mb-auto;
-}
-
-.app-footer {
-  @apply flex h-10;
-}
-
-// Header Layer
-.header-logo {
-  @apply basis-1/2 md:basis-1/5;
-}
-.header-nav {
-  @apply hidden md:block md:basis-3/5;
-}
-// Footer Layer
+@import "container/align";
+@import "container/color";
+@import "container/size";
+@import "container/space";
+@import "container/type";

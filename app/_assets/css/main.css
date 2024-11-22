@@ -19,11 +19,11 @@
 }
 
 .app {
-  @apply flex h-screen flex-col;
+  @apply h-screen;
 }
 
 .app-header {
-  @apply flex h-10;
+  @apply h-10;
 }
 
 .app-main {
@@ -31,7 +31,7 @@
 }
 
 .app-footer {
-  @apply flex h-10;
+  @apply h-10;
 }
 
 .header-logo {
@@ -39,7 +39,23 @@
 }
 
 .header-nav {
-  @apply hidden md:block md:basis-3/5;
+  @apply md:basis-3/5;
+}
+
+.app {
+  @apply flex flex-col;
+}
+
+.app-header {
+  @apply flex;
+}
+
+.app-footer {
+  @apply flex;
+}
+
+.header-nav {
+  @apply hidden md:block;
 }
 
 h1 {
@@ -64,4 +80,6 @@ p {
 
 .header-nav {
   @apply text-xl;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
